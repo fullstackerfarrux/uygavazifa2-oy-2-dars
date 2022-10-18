@@ -1,0 +1,61 @@
+* {
+    text-decoration: none;
+}
+
+section#great-coffee {
+    background-image: url("../image/Graetcoffe.png");
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+section#great-coffee div {
+    width: 493px;
+    padding: 50px 95px;
+    position: relative;
+}
+section#great-coffee h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    color: #fefcf7;
+    margin-bottom: 20px;
+}
+section#great-coffee p {
+    width: 445px;
+    font-family: "sans-serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fefcf7;
+}
+section#great-coffee button {
+    margin-top: 30px;
+    width: 217px;
+    height: 56px;
+    background-color: #66d2cf;
+    border-radius: 6px;
+    color: #fefcf7;
+}
+section#great-coffee a {
+    font-family: "sans-serif";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #fefcf7;
+}
+
+section#great-coffee img {
+    margin: 0 0 -34px -38px;
+}
+section#great-coffee button:hover {
+    background-color:#fff;
+    transition: 0.5;
+}
+section#great-coffee a:hover {
+    color:#66d2cf;
+    font-size: 24px;
+}
