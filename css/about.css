@@ -2,6 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 body {
     background-image: url(/images/Bitmap.jpg);
