@@ -1,5 +1,44 @@
 * {
   text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sticky {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sticky ul {
+  display: flex;
+}
+
+.sticky li {
+  margin-left: 20px;
+  color: #83888f;
 }
 
 section#great-coffee {
