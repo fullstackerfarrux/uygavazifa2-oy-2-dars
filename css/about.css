@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container1 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#aboutsticky {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+#aboutsticky ul {
+  display: flex;
+}
+
+#aboutsticky li {
+  margin-left: 20px;
+  color: #83888f;
+}
+.hero {
+  background-image: url(/images/Bitmap.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+.hero h2 {
+  text-align: left;
+  color: #fefcf7;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  font-family: sans-serif;
+}
+.hero p {
+  width: 445px;
+  height: 104px;
+  color: #fefcf7;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
