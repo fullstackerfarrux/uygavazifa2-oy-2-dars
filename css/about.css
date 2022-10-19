@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/images/Bitmap.jpg);
+    background-repeat: no-repeat;
+    margin:  0 auto;
+    width: 1280px;
+    height: 450px;
+  
+}
+ h2 {
+    text-align: left;
+    margin-right: 40px;
+    color: #FEFCF7;
+    margin-top: 150px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-family: sans-serif;
+ }
+ p {
+    width: 445px;
+    height: 104px;
+     color: #FEFCF7;
+     font-size: 16px;
+     margin-top: 20px;
+     font-weight: 400;
+     font-family: sans-serif;
+ }
