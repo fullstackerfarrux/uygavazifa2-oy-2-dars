@@ -98,3 +98,41 @@ section#great-coffee a:hover {
   color: #66d2cf;
   font-size: 24px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,900&display=swap');
+
+body{
+    font-family: 'Fraunces', serif;
+}
+.content h5{
+    color: #83888F;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-left: 90px;
+    padding-bottom: 50px;
+}
+
+.content .list{
+    display: flex;
+}
+
+.content .list .item{
+    padding: 50px;
+    list-style: none;
+}
+
+.item h3{
+    color: black;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.item p{
+    color: #333D4B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
