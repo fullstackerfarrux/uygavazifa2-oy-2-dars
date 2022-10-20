@@ -105,3 +105,23 @@ a {
 .quality-image img {
   border-radius: 10px;
 }
+
+h2 {
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 24px;
+  margin-left: 70px;
+  color: gray;
+}
+section ul {
+  margin: 20px 100px;
+  width: 100%;
+  height: 80%;
+  display: grid;
+  list-style: none;
+  font-size: 16px;
+  line-height: 26px;
+}
+section {
+  display: flex;
+}
