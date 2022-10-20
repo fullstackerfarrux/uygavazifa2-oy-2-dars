@@ -4,6 +4,24 @@
   box-sizing: border-box;
   font-family: "Fraunces", serif;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.sticky {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.sticky ul {
+  display: flex;
+}
+
+.sticky li {
+  margin-left: 20px;
+  color: #83888f;
+}
 ul {
   list-style: none;
 }
@@ -26,7 +44,7 @@ a {
   height: auto;
 }
 section#Sardor {
-  margin: 2em auto;
+  margin: 2em 0;
 }
 section#Sardor .uchdanbiri .flex-s {
   flex-direction: column;
@@ -64,7 +82,7 @@ section#Sardor option {
   font-size: 0px;
 }
 section#Sardor {
-  padding: 2em 15em;
+  padding: 2em 5em;
 }
 section#Sardor .card {
   background-color: red;
